@@ -5,11 +5,14 @@
 /**
  *
  *
+   https://moons.army
+   https://t.me/MoonsArmy
+   https://X.com/MoonsToken
    https://X.com/DrewRoberts
 
    Contract features:
-   3% buy tax in ETH sent to marketing, community & dev
-   3% sell tax in ETH sent to marketing, community & dev
+   5% buy tax in ETH sent to marketing, community & dev
+   5% sell tax in ETH sent to marketing, community & dev
  */
 
 // SPDX-License-Identifier: MIT
