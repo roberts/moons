@@ -1224,7 +1224,7 @@ contract moons is ERC20, Ownable {
         address indexed oldWallet
     );
  
-    constructor() ERC20("Moon Show Token", "MOONS") {
+    constructor() ERC20("Safer Moon & Moon Show Token", "MOONS") {
         uniswapV2Router = IUniswapV2Router02(
             0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D
         );
@@ -1236,17 +1236,17 @@ contract moons is ERC20, Ownable {
         maxWallet = (totalSupply) / 100;  //1% of total supply (1,000,000,000 tokens)
         swapTokensAtAmount = (totalSupply * 5) / 10000;
  
-        buyMarketingFee = 1;
+        buyMarketingFee = 2;
         buyDevelopmentFee = 1;
-        buyCommunityFundFee = 1;
+        buyCommunityFundFee = 2;
         buyTotalFees =
             buyMarketingFee +
             buyDevelopmentFee +
             buyCommunityFundFee;
  
-        sellMarketingFee = 1;
+        sellMarketingFee = 2;
         sellDevelopmentFee = 1;
-        sellCommunityFundFee = 1;
+        sellCommunityFundFee = 2;
         sellTotalFees =
             sellMarketingFee +
             sellDevelopmentFee +
@@ -1299,7 +1299,7 @@ contract moons is ERC20, Ownable {
         excludeFromMaxTransaction(address(uniswapV2Pair), true);
 
         uint256 tokensInWallet = balanceOf(address(this));
-        uint256 tokensToAdd = tokensInWallet * 9 / 10; //90% of tokens in wallet go to LP
+        uint256 tokensToAdd = tokensInWallet * 90 / 100; // 90% of tokens in wallet go to LP
  
         uniswapV2Router.addLiquidityETH{value: address(this).balance}(
             address(this),
