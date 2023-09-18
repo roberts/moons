@@ -11,7 +11,7 @@
    https://X.com/DrewRoberts
 
    Contract features:
-   5% buy tax in ETH sent to marketing, community & dev
+   3% buy tax in ETH sent to marketing, community & dev
    5% sell tax in ETH sent to marketing, community & dev
  */
 
@@ -1239,9 +1239,9 @@ contract moons is ERC20, Ownable {
         maxWallet = (totalSupply) / 100;  //1% of total supply (1,000,000,000 tokens)
         swapTokensAtAmount = (totalSupply * 5) / 10000;
  
-        buyMarketingFee = 2;
+        buyMarketingFee = 1;
         buyDevelopmentFee = 1;
-        buyCommunityFundFee = 2;
+        buyCommunityFundFee = 1;
         buyTotalFees =
             buyMarketingFee +
             buyDevelopmentFee +
