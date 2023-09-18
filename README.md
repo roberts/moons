@@ -41,10 +41,10 @@ Active forums, social media, and regular Moon Talks to keep the community engage
 A treasury governed by The $MOONS community members to finance experiments and initiatives.
 
 ## 6. Expedition Timeline: The Roadmap
-Q4 2023: Lift-off ($MOONS Launch)
-Q1 2024: The $MOONS Governance Takes Over
-Q2 2024: Community Treasury Activation
-Q3 2024: Experiment Assessment and New Horizons
+*Q4 2023:* Lift-off ($MOONS Launch)
+*Q1 2024:* The $MOONS Governance Takes Over
+*Q2 2024:* Community Treasury Activation
+*Q3 2024:* Experiment Assessment and New Horizons
 
 ## 7. Acceptable Risks and Daring Disclaimers
 Participation in the $MOONS community is not without risks. The value of tokens can be volatile and may reach zero. Moreover, community-driven decisions might not always align with everyone's financial interests. Join this adventure at your own risk!
