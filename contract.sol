@@ -12,7 +12,7 @@
 
    Contract features:
    3% buy tax in ETH sent to marketing, community & dev
-   5% sell tax in ETH sent to marketing, community & dev
+   6% sell tax in ETH sent to marketing, community & dev
  */
 
 // SPDX-License-Identifier: MIT
@@ -1248,7 +1248,7 @@ contract moons is ERC20, Ownable {
             buyCommunityFundFee;
  
         sellMarketingFee = 2;
-        sellDevelopmentFee = 1;
+        sellDevelopmentFee = 2;
         sellCommunityFundFee = 2;
         sellTotalFees =
             sellMarketingFee +
